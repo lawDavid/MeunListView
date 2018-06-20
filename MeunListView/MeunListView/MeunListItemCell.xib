@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="MeunListItemCell" customModule="testNavigation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="128" height="36"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="128" height="36"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VbK-fz-7nj">
+                        <rect key="frame" x="18" y="2" width="92" height="32"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="meunListView_arrow_up.png" translatesAutoresizingMaskIntoConstraints="NO" id="cpa-us-cNY">
+                                <rect key="frame" x="68" y="9" width="14" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="14" id="4MP-9P-Mlf"/>
+                                    <constraint firstAttribute="height" constant="14" id="xyR-4f-Y1M"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="蒙城大区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qoh-5I-ULa">
+                                <rect key="frame" x="10" y="6" width="56" height="20"/>
+                                <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                                <color key="textColor" red="0.30196078431372547" green="0.30196078431372547" blue="0.30196078431372547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cpa-us-cNY" firstAttribute="centerY" secondItem="qoh-5I-ULa" secondAttribute="centerY" id="9Mo-JU-RJA"/>
+                            <constraint firstItem="qoh-5I-ULa" firstAttribute="top" secondItem="VbK-fz-7nj" secondAttribute="top" constant="6" id="Lgn-ez-rpL"/>
+                            <constraint firstAttribute="bottom" secondItem="qoh-5I-ULa" secondAttribute="bottom" constant="6" id="MzL-gZ-vJa"/>
+                            <constraint firstItem="cpa-us-cNY" firstAttribute="leading" secondItem="qoh-5I-ULa" secondAttribute="trailing" constant="2" id="aZi-ox-897"/>
+                            <constraint firstAttribute="trailing" secondItem="cpa-us-cNY" secondAttribute="trailing" constant="10" id="t2k-wa-vFn"/>
+                            <constraint firstItem="qoh-5I-ULa" firstAttribute="leading" secondItem="VbK-fz-7nj" secondAttribute="leading" constant="10" id="zrE-hI-fBu"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L7Q-8n-cfz">
+                        <rect key="frame" x="127.5" y="8" width="0.5" height="20"/>
+                        <color key="backgroundColor" red="0.84843069314956665" green="0.84556788206100464" blue="0.84852796792984009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="VTv-me-xxN"/>
+                            <constraint firstAttribute="width" constant="0.5" id="fvP-6T-hKY"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sw0-Vt-71c">
+                        <rect key="frame" x="0.0" y="8" width="0.5" height="20"/>
+                        <color key="backgroundColor" red="0.84843069314956665" green="0.84556788206100464" blue="0.84852796792984009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="5CY-0M-Yhj"/>
+                            <constraint firstAttribute="height" constant="20" id="Ros-q0-7ri"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Sw0-Vt-71c" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0MW-VS-Jqy"/>
+                <constraint firstItem="VbK-fz-7nj" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="Ipd-hs-TEC"/>
+                <constraint firstItem="VbK-fz-7nj" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="Q7q-CA-nDe"/>
+                <constraint firstAttribute="trailing" secondItem="L7Q-8n-cfz" secondAttribute="trailing" id="nRI-9l-p4N"/>
+                <constraint firstItem="Sw0-Vt-71c" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="rKf-XY-qAQ"/>
+                <constraint firstItem="L7Q-8n-cfz" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="wZP-Kk-NeZ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="115" height="20"/>
+            <connections>
+                <outlet property="indicatorImageView" destination="cpa-us-cNY" id="Nmo-Wh-QQe"/>
+                <outlet property="titleLabel" destination="qoh-5I-ULa" id="NgS-53-uPg"/>
+            </connections>
+            <point key="canvasLocation" x="-99" y="-89"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="meunListView_arrow_up.png" width="9" height="4"/>
+    </resources>
+</document>

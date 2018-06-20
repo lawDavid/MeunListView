@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		713FDA1020DAAF6C0086FFAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713FDA0F20DAAF6C0086FFAA /* AppDelegate.swift */; };
+		713FDA1520DAAF6C0086FFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA1320DAAF6C0086FFAA /* Main.storyboard */; };
+		713FDA1720DAAF6E0086FFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA1620DAAF6E0086FFAA /* Assets.xcassets */; };
+		713FDA1A20DAAF6E0086FFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA1820DAAF6E0086FFAA /* LaunchScreen.storyboard */; };
+		713FDA3120DAAFAD0086FFAA /* meunListView_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2320DAAFAD0086FFAA /* meunListView_selected@2x.png */; };
+		713FDA3220DAAFAD0086FFAA /* meunListView_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2420DAAFAD0086FFAA /* meunListView_selected@3x.png */; };
+		713FDA3320DAAFAD0086FFAA /* meunListView_arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2520DAAFAD0086FFAA /* meunListView_arrow_up@2x.png */; };
+		713FDA3420DAAFAD0086FFAA /* meunListView_arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2620DAAFAD0086FFAA /* meunListView_arrow_down@3x.png */; };
+		713FDA3520DAAFAD0086FFAA /* meunListView_arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2720DAAFAD0086FFAA /* meunListView_arrow_down@2x.png */; };
+		713FDA3620DAAFAD0086FFAA /* meunListView_arrow_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2820DAAFAD0086FFAA /* meunListView_arrow_up@3x.png */; };
+		713FDA3720DAAFAD0086FFAA /* MeunListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2920DAAFAD0086FFAA /* MeunListCell.xib */; };
+		713FDA3820DAAFAD0086FFAA /* MeunListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2A20DAAFAD0086FFAA /* MeunListView.xib */; };
+		713FDA3920DAAFAD0086FFAA /* MeunListItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 713FDA2B20DAAFAD0086FFAA /* MeunListItemCell.xib */; };
+		713FDA3A20DAAFAD0086FFAA /* MeunListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713FDA2C20DAAFAD0086FFAA /* MeunListModel.swift */; };
+		713FDA3B20DAAFAD0086FFAA /* MeunListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713FDA2D20DAAFAD0086FFAA /* MeunListCell.swift */; };
+		713FDA3C20DAAFAD0086FFAA /* MeunListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713FDA2E20DAAFAD0086FFAA /* MeunListView.swift */; };
+		713FDA3D20DAAFAD0086FFAA /* MeunListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713FDA2F20DAAFAD0086FFAA /* MeunListItemCell.swift */; };
+		713FDA3E20DAAFAD0086FFAA /* MeunListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713FDA3020DAAFAD0086FFAA /* MeunListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		713FDA0C20DAAF6C0086FFAA /* MeunListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeunListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713FDA0F20DAAF6C0086FFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		713FDA1420DAAF6C0086FFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		713FDA1620DAAF6E0086FFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		713FDA1920DAAF6E0086FFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		713FDA1B20DAAF6E0086FFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713FDA2320DAAFAD0086FFAA /* meunListView_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meunListView_selected@2x.png"; sourceTree = "<group>"; };
+		713FDA2420DAAFAD0086FFAA /* meunListView_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meunListView_selected@3x.png"; sourceTree = "<group>"; };
+		713FDA2520DAAFAD0086FFAA /* meunListView_arrow_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meunListView_arrow_up@2x.png"; sourceTree = "<group>"; };
+		713FDA2620DAAFAD0086FFAA /* meunListView_arrow_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meunListView_arrow_down@3x.png"; sourceTree = "<group>"; };
+		713FDA2720DAAFAD0086FFAA /* meunListView_arrow_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meunListView_arrow_down@2x.png"; sourceTree = "<group>"; };
+		713FDA2820DAAFAD0086FFAA /* meunListView_arrow_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meunListView_arrow_up@3x.png"; sourceTree = "<group>"; };
+		713FDA2920DAAFAD0086FFAA /* MeunListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeunListCell.xib; sourceTree = "<group>"; };
+		713FDA2A20DAAFAD0086FFAA /* MeunListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeunListView.xib; sourceTree = "<group>"; };
+		713FDA2B20DAAFAD0086FFAA /* MeunListItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeunListItemCell.xib; sourceTree = "<group>"; };
+		713FDA2C20DAAFAD0086FFAA /* MeunListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeunListModel.swift; sourceTree = "<group>"; };
+		713FDA2D20DAAFAD0086FFAA /* MeunListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeunListCell.swift; sourceTree = "<group>"; };
+		713FDA2E20DAAFAD0086FFAA /* MeunListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeunListView.swift; sourceTree = "<group>"; };
+		713FDA2F20DAAFAD0086FFAA /* MeunListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeunListItemCell.swift; sourceTree = "<group>"; };
+		713FDA3020DAAFAD0086FFAA /* MeunListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeunListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		713FDA0920DAAF6C0086FFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713FDA0320DAAF6C0086FFAA = {
+			isa = PBXGroup;
+			children = (
+				713FDA0E20DAAF6C0086FFAA /* MeunListView */,
+				713FDA0D20DAAF6C0086FFAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		713FDA0D20DAAF6C0086FFAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713FDA0C20DAAF6C0086FFAA /* MeunListView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		713FDA0E20DAAF6C0086FFAA /* MeunListView */ = {
+			isa = PBXGroup;
+			children = (
+				713FDA2120DAAFAD0086FFAA /* MeunListView */,
+				713FDA0F20DAAF6C0086FFAA /* AppDelegate.swift */,
+				713FDA3020DAAFAD0086FFAA /* MeunListViewController.swift */,
+				713FDA1320DAAF6C0086FFAA /* Main.storyboard */,
+				713FDA1620DAAF6E0086FFAA /* Assets.xcassets */,
+				713FDA1820DAAF6E0086FFAA /* LaunchScreen.storyboard */,
+				713FDA1B20DAAF6E0086FFAA /* Info.plist */,
+			);
+			path = MeunListView;
+			sourceTree = "<group>";
+		};
+		713FDA2120DAAFAD0086FFAA /* MeunListView */ = {
+			isa = PBXGroup;
+			children = (
+				713FDA2220DAAFAD0086FFAA /* images */,
+				713FDA2920DAAFAD0086FFAA /* MeunListCell.xib */,
+				713FDA2A20DAAFAD0086FFAA /* MeunListView.xib */,
+				713FDA2B20DAAFAD0086FFAA /* MeunListItemCell.xib */,
+				713FDA2C20DAAFAD0086FFAA /* MeunListModel.swift */,
+				713FDA2D20DAAFAD0086FFAA /* MeunListCell.swift */,
+				713FDA2E20DAAFAD0086FFAA /* MeunListView.swift */,
+				713FDA2F20DAAFAD0086FFAA /* MeunListItemCell.swift */,
+			);
+			path = MeunListView;
+			sourceTree = "<group>";
+		};
+		713FDA2220DAAFAD0086FFAA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				713FDA2320DAAFAD0086FFAA /* meunListView_selected@2x.png */,
+				713FDA2420DAAFAD0086FFAA /* meunListView_selected@3x.png */,
+				713FDA2520DAAFAD0086FFAA /* meunListView_arrow_up@2x.png */,
+				713FDA2620DAAFAD0086FFAA /* meunListView_arrow_down@3x.png */,
+				713FDA2720DAAFAD0086FFAA /* meunListView_arrow_down@2x.png */,
+				713FDA2820DAAFAD0086FFAA /* meunListView_arrow_up@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		713FDA0B20DAAF6C0086FFAA /* MeunListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713FDA1E20DAAF6E0086FFAA /* Build configuration list for PBXNativeTarget "MeunListView" */;
+			buildPhases = (
+				713FDA0820DAAF6C0086FFAA /* Sources */,
+				713FDA0920DAAF6C0086FFAA /* Frameworks */,
+				713FDA0A20DAAF6C0086FFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeunListView;
+			productName = MeunListView;
+			productReference = 713FDA0C20DAAF6C0086FFAA /* MeunListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		713FDA0420DAAF6C0086FFAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = DavidLaw;
+				TargetAttributes = {
+					713FDA0B20DAAF6C0086FFAA = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 713FDA0720DAAF6C0086FFAA /* Build configuration list for PBXProject "MeunListView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 713FDA0320DAAF6C0086FFAA;
+			productRefGroup = 713FDA0D20DAAF6C0086FFAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				713FDA0B20DAAF6C0086FFAA /* MeunListView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		713FDA0A20DAAF6C0086FFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713FDA3720DAAFAD0086FFAA /* MeunListCell.xib in Resources */,
+				713FDA3920DAAFAD0086FFAA /* MeunListItemCell.xib in Resources */,
+				713FDA3520DAAFAD0086FFAA /* meunListView_arrow_down@2x.png in Resources */,
+				713FDA1A20DAAF6E0086FFAA /* LaunchScreen.storyboard in Resources */,
+				713FDA3820DAAFAD0086FFAA /* MeunListView.xib in Resources */,
+				713FDA3320DAAFAD0086FFAA /* meunListView_arrow_up@2x.png in Resources */,
+				713FDA3420DAAFAD0086FFAA /* meunListView_arrow_down@3x.png in Resources */,
+				713FDA3620DAAFAD0086FFAA /* meunListView_arrow_up@3x.png in Resources */,
+				713FDA3120DAAFAD0086FFAA /* meunListView_selected@2x.png in Resources */,
+				713FDA1720DAAF6E0086FFAA /* Assets.xcassets in Resources */,
+				713FDA3220DAAFAD0086FFAA /* meunListView_selected@3x.png in Resources */,
+				713FDA1520DAAF6C0086FFAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713FDA0820DAAF6C0086FFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713FDA3A20DAAFAD0086FFAA /* MeunListModel.swift in Sources */,
+				713FDA3E20DAAFAD0086FFAA /* MeunListViewController.swift in Sources */,
+				713FDA3B20DAAFAD0086FFAA /* MeunListCell.swift in Sources */,
+				713FDA3C20DAAFAD0086FFAA /* MeunListView.swift in Sources */,
+				713FDA1020DAAF6C0086FFAA /* AppDelegate.swift in Sources */,
+				713FDA3D20DAAFAD0086FFAA /* MeunListItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		713FDA1320DAAF6C0086FFAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713FDA1420DAAF6C0086FFAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		713FDA1820DAAF6E0086FFAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713FDA1920DAAF6E0086FFAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		713FDA1C20DAAF6E0086FFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		713FDA1D20DAAF6E0086FFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		713FDA1F20DAAF6E0086FFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GEYH4YN8NX;
+				INFOPLIST_FILE = MeunListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidLaw.MeunListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		713FDA2020DAAF6E0086FFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GEYH4YN8NX;
+				INFOPLIST_FILE = MeunListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidLaw.MeunListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		713FDA0720DAAF6C0086FFAA /* Build configuration list for PBXProject "MeunListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713FDA1C20DAAF6E0086FFAA /* Debug */,
+				713FDA1D20DAAF6E0086FFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713FDA1E20DAAF6E0086FFAA /* Build configuration list for PBXNativeTarget "MeunListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713FDA1F20DAAF6E0086FFAA /* Debug */,
+				713FDA2020DAAF6E0086FFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 713FDA0420DAAF6C0086FFAA /* Project object */;
+}
